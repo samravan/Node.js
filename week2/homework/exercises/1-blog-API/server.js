@@ -68,6 +68,8 @@ app.get('/blogs/:title', (req, res) => {
 
   // send response
 })
+
+// Bonus: Reading all posts
 app.get('/blogs', (req, res) => {
 
   const title = req.body;
