@@ -4,9 +4,7 @@
 
 let http = require('http');
 let fs = require('fs');
-let path = require('path');
 //create a server
-
 let server = http.createServer((req, res) => {
 
 	if(req.url === '/')	{
