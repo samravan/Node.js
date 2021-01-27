@@ -5,8 +5,7 @@
  * e.g. padLeft(  '2', 2, '0')   -> '02'
  */
 function padLeft(val, num, str) {
-  return '00000'.replace(/0/g, str).slice(0, num - val.length) + val;
+	return '00000'.replace(/0/g, str).slice(0, num - val.length) + val;
 }
 
 // YOUR CODE GOES HERE
-module.exports = padLeft;
