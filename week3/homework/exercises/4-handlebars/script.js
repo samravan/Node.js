@@ -38,11 +38,8 @@ function drawCard() {
   let punchline = getRandomElement(punchlines);
   const cardData = {subject, punchline};
 
-
   const card = '{{subject}} is great to {{punchline}}'
-
   let template = Handlebars.compile(card);
-
   let result = template(cardData);
   console.log(result)
 }
