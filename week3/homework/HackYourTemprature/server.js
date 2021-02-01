@@ -1,4 +1,3 @@
-const path = require('path');
 const capitalizeFirstLetter = require('./sources/functions.js');
 const axios = require('axios');
 const express = require('express');
