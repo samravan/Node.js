@@ -1,6 +1,6 @@
 /**
  ** Exercise 2: To the left, to the left...
- * 
+ *
  * Copy and paste your code from the previous exercise.
  * Replace the function `padLeft` to use
  * this new NPM package called `left-pad` instead then
@@ -11,3 +11,7 @@
 let numbers = [ "12", "846", "2", "1236" ];
 
 // YOUR CODE GOES HERE
+const leftPad = require('left-pad');
+
+// const padLeftFunction = require('./padLeft');
+numbers.forEach(element => console.log(leftPad(element, 8)));
